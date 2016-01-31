@@ -22,11 +22,11 @@ struct QUAD{
 
 int Q = 0, T = 0;
 int L = 0;
+
 int LABEL_STACK[100];
 int LABEL_STACK_TOP=0;
 
 void LABEL_STACK_push(int l){
-
 	LABEL_STACK[LABEL_STACK_TOP++] = l;
 }
 
@@ -34,10 +34,7 @@ void LABEL_STACK_push(int l){
 char STMT_STACK[100][100];
 int STACK_TOP = 0;
 
-
-
 void STMT_STACK_push(char str[100]){
-
 	strcpy(STMT_STACK[STACK_TOP++], str);
 }
 
@@ -45,6 +42,7 @@ struct ST{
 	char symbol[100];
 	float value;
 }SYMBOL_TABLE[100];
+
 int total_symbol=0;
 
 float GET_SYMBOL_VALUE( char symbol[100]){
@@ -59,6 +57,7 @@ float GET_SYMBOL_VALUE( char symbol[100]){
 	total_symbol++;
     return 0;
 }
+
 void SET_SYMBOL_VALUE(char symbol[100], float value){
 
 	int i;
@@ -94,9 +93,7 @@ float  CALCULATE(float x, float y, char operation[5] ){
 }
 
 
-
 int IF_NO=1;
-
 
 %}
 
