@@ -1,6 +1,4 @@
-# Simple-Parser-Using-Lex-and-Yacc
-##Simple Parser Using Lex and YACC
-
+# Simple Parser Using Lex and Yacc
 
 ###How to run my code: 
 1. In the Assignment_2.pdf, there is given what to do at a glance.
