@@ -1,0 +1,17 @@
+ab = 10;
+a = b;
+a = b+c
+a = ( a == b );
+a = (c==db)&&(a!=b)||(xc%werty);
+b[c+d] = 3;
+head = up + down;
+t_pri = price;
+pi = 3.1416;
+ab = 7+8;
+a = 5;
+data_ = a + b;
+b= b + 1;
+c = d;
+d = 12*(3);
+input[b+2]   =   b; a = input [i+2]; 
+
