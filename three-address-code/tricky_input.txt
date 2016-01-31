@@ -1,0 +1,47 @@
+		b = b + 1;
+		if(b > a)
+		{
+			b = 2 + c;
+			if(c > d)
+			{
+				m = c + d;
+			}
+			else 
+			{
+				a = b;
+			}
+		} 
+		else
+		{
+			if(c > d)
+			{
+				m = c + d;
+			}
+			else 
+			{
+				a = b;
+			}
+			b = d - 2;
+			
+		}
+
+while ( a+3 ) 
+{ 
+	if(a>=b)
+	{
+		c = d;
+	}
+	else 
+	{
+		m = n; 
+	}
+	a = a - 1;
+}
+
+
+b = 1;
+c = 5;
+d = 3;
+b = b + 1;
+if(b > a){b = 2 + c;} else{b = d - 2;}
+a = c + b * d;
