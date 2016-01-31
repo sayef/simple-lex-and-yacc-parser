@@ -9,5 +9,6 @@
 
 
 ###Input:
-    There are two input file. Initially input.txt is given in the code. You can customize the inputs. There is an additional input file named tricky_input.txt that contains some tricky cases.
+    1. Initially input.txt is given in the code. You can customize the inputs. 
+    2. There is an additional input file named tricky_input.txt that contains some tricky cases.
 
